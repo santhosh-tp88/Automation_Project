@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KPI Name]">
+  <test name="KPI(failed)">
+    <classes>
+      <class name="org.honeywell.kpi.driver.DriverScript">
+        <methods>
+          <include name="loadClasses"/>
+          <include name="preRequisite"/>
+          <include name="runTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- org.honeywell.kpi.driver.DriverScript -->
+    </classes>
+  </test> <!-- KPI(failed) -->
+</suite> <!-- Failed suite [KPI Name] -->
